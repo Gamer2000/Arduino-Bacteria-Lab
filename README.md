@@ -1,5 +1,7 @@
 # Arduino Bacteria Lab
+![Demo](screenshots/bacteria_lab_demo.gif)
 
+Модель искусственной жизни для Arduino Uno и Seeed Studio 2.8" TFT Touch Shield v2.0.
 Модель искусственной жизни для **Arduino Uno** и
 **Seeed Studio 2.8" TFT Touch Shield v2.0**.
 
