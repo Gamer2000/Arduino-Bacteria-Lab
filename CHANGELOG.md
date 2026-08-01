@@ -1,19 +1,43 @@
 # Changelog
 
-## v0.2.0 — Touch controls and bacteria inspector
+## v0.3.0 — Lineage and generations
 
-- Added touchscreen buttons `START`, `PAUSE`, `SELECT`, and `STOP`.
-- Added population statistics.
-- Added averages for age, speed, sensor range, and turn gene.
-- Added touch selection of an individual bacterium.
-- Added information screen with energy, age, and genes.
-- Added updated screenshots, animated GIF, and MP4 demonstration.
-- Expanded README with color legend and reading descriptions.
+Добавлено:
 
-## v0.1.0 — Initial public version
+- уникальный ID каждой бактерии;
+- ID родителя;
+- номер поколения;
+- счётчик непосредственных потомков;
+- отображение родословной на экране `SELECT`;
+- максимальное поколение среди живых бактерий;
+- ID самой старой живой бактерии;
+- максимальное число потомков;
+- автоматическое переключение второй строки статистики.
 
-- Added artificial-life simulation for Arduino Uno.
-- Added food search using simplified chemotaxis.
-- Added energy consumption, aging, reproduction, mutation, and death.
-- Added inheritance of behavioral genes.
-- Added conversion of dead bacteria into food.
+Основной скетч:
+
+```text
+BacteriaLab_v1_7_Lineage_Stats/BacteriaLab_v1_7_Lineage_Stats.ino
+```
+
+## v0.2.0 — Touch controls and inspector
+
+Добавлено:
+
+- сенсорные кнопки `START`, `PAUSE`, `SELECT`, `STOP`;
+- статистика популяции;
+- выбор бактерии касанием;
+- просмотр энергии, возраста и генов;
+- обновлённая документация, фотографии и видео.
+
+## v0.1.0 — First public release
+
+Добавлено:
+
+- несколько бактерий и источников пищи;
+- упрощённый хемотаксис;
+- память трёх измерений запаха;
+- энергия, размножение и смерть;
+- наследование и мутации;
+- возраст и старение;
+- разные цвета бактерий по скорости.
